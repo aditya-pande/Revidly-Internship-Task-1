@@ -1,0 +1,31 @@
+.post {
+    display: flex;
+    padding-top: $s-size;
+    flex-direction: column;
+    border-bottom: 1px solid lighten(rgb(192,192,192), 10%);
+    width: 100%;
+}
+
+.post__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post__user-image {
+    border-radius: 50%;
+}
+
+.post__header__link {
+    background-color: white;
+    color: black;
+    margin: $s-size $s-size;
+    text-align: center;
+    text-decoration: none;
+}
+
+.post__body {
+    display: flex;
+    margin-left: $s-size;
+}
+

@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    background: white;
+    padding: $s-size 0;
+    flex-direction: column;
+    max-width: 150rem;
+    position: fixed;
+    width: 100%;
+}
+
+.header__links-container {
+    display: flex;
+    margin: $s-size 0 0 0;
+    justify-content: flex-start;
+}
+
+.header__image {
+    border-radius: 50%;
+    height: $xxl-size;
+    width: $xxl-size;
+}
+
+.header__write-link {
+    background-color: white;
+    color: black;
+    padding: $s-size 0;
+    border: 2px solid rgb(211,211,211);
+    border-radius: 25px;
+    margin: $m-size 0 $m-size 0;
+    text-align: center;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.header__clans-list {
+    display: flex;
+    overflow: auto;
+    justify-content: flex-start;
+}
+
+.header__clans-list__clan-link {
+    background-color: white;
+    color: black;
+    padding: $s-size 0;
+    border: 2px solid rgb(211,211,211);
+    border-radius: 15px 15px 0px 15px;
+    margin: $s-size $s-size 0 $s-size;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
