@@ -1,7 +1,7 @@
 # Revidly-Internship-Task-1
 
 
-Run webpack dev server using the command npm run dev-server
+Run webpack dev server using the command ( npm run dev-server ).
 Web App will be on localhost:8080
 
 
